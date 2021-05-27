@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>TP02</title>
+</head>
+<body>
+
+    <h1>Add New Product</h1>
+    <form action="SaveServlet" method="post">
+        <table>
+                <tr>
+                    <td>Nome:</td>
+                    <td>
+                        <input type="text" name="nome"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Descricao:</td>
+                    <td>
+                        <input type="text" name="descricao"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Unidade de Compra:</td>
+                    <td>
+                        <input type="number" name="unidadeCompra"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quantidade Previsto:</td>
+                    <td>
+                        <input type="number" name="qtdPrevistoMes"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Preco Maximo Comprado:</td>
+                    <td>
+                        <input type="number" name="precoMaxComprado"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Salvar Produto"/>
+                    </td>
+                </tr>
+            </table>
+    </form>
+
+    <br />
+    <a href="ViewServlet">view products</a>
+</body>
+</html>
